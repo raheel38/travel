@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+        <style>
+            /* Background fitting */
+            html{
+                min-height: 100%;
+                background-image: url("tower.jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            /* menu design */
+            .menu ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            }
+            .menu li a{
+                text-decoration: none;
+                float:right;
+                color: aliceblue;
+                padding-left: 80px;
+                margin-right: 35px;
+                margin-top: 10px;
+            }
+            
+
+            .menu li:hover{
+                color: orange;
+            }
+            .menu p{
+                float: left;
+                color: aliceblue;
+                font-family: 'Great Vibes';
+                font-size: 25px;
+                padding-left: 14px;
+            }
+            
+            .menu img{
+                float: left;
+                width: 3.5%;
+                padding-right: 0px;
+                margin-left: 15px;
+            }
+            .content{
+                margin-top: 150px;
+                margin-left: 80px;
+                color: aliceblue;
+                font-family: 'Heebo';
+                font-size: 25px;
+                font-weight: 400;
+            }
+            .content p{
+                margin-bottom: -30px; /* Decreasing the space between the paragraph and header*/
+                font-size: 20px;
+            }
+            .content h1{
+                margin-bottom: 0px;
+            }
+            .content button{
+                border-radius: 0px;
+                border: 1px solid orange;
+                padding: 8px 12px; /* top and bottom 8 , left and right 12 */
+                background-color: orange;
+            }
+            .content button:hover{
+                background-color: plum;
+                color:aliceblue;
+                border: 1px solid plum;
+            }
+            .footer{
+                margin-top: 90px;
+            }
+            .footer ul{
+                color: aliceblue;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+
+            }
+            .footer li{
+                display: inline;
+                padding: 100px;
+                font-weight: bold;
+            }
+            /* circle button : giving width and height and padding */
+            .footer button{
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                padding: 5px;
+                background: none;
+                color: aliceblue;
+                border: 3px solid aliceblue;
+                border-radius:50% ;
+            }
+            .footer button:hover{
+                color: orange;
+                border: 3px solid orange;
+            }
+            .footer li:hover{
+                color: orange;
+
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="menu">
+            <ul>
+                <div class="left">
+                <img src="air.png">
+                <p>TravelStory</p>
+            </div>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Events</a></li>
+                <li><a href="">About Company</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Tour Catalog</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <p>FEAATURED ARTICLE</p>
+            <h1>WHERE TO GO <br> THIS YEAR</h1>
+            <button>READ MORE</button>
+        </div>
+        <div class="footer">
+            <ul>
+                <li><button>1</button>&nbsp; Where to go this may</li>
+                <li><button>2</button>&nbsp;  Explore Europe</li>
+                <li><button>3</button>&nbsp; Expences</li>
+            </ul>
+        </div>
+    </body>
+</html>
